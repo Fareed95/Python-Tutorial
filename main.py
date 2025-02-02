@@ -1,6 +1,18 @@
-print("hello world")
-# print("hello world22 ")
+# Creating a Set
+set1 = set()
+print(set1)
 
-a = input("Write your input")
+set1 = set("GeeksForGeeks") 
+print(set1)
 
-print(a)
+# Creating a Set with the use of a List
+set1 = set(["Geeks", "For", "Geeks"])
+print(set1)
+
+# Creating a Set with the use of a tuple
+tup = ("Geeks", "for", "Geeks")
+print(set(tup))
+
+# Creating a Set with the use of a dictionary
+d = {"Geeks": 1, "for": 2, "Geeks": 3}
+print(set(d))
